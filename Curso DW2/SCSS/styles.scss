@@ -1,0 +1,11 @@
+@mixin darBorde($color:aqua, $ancho: 5px) {
+    border: $ancho solid $color;
+}
+
+.miArticulo {
+@include darBorde(blue, 3px);
+}
+
+.misNotas {
+@include darBorde(green, 1px);
+}

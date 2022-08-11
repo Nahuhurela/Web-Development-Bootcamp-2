@@ -1,0 +1,50 @@
+$primary-color: rgb(233, 38, 217);
+
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  color: white;
+  background-color: black;
+  padding: 100px 0px 100px 0px;
+  display: grid;
+}
+h1 {
+  color: $primary-color;
+  text-align: center;
+  font-weight: bold 720;
+}
+
+.formulario {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto;
+  max-width: 400px;
+  padding: 5px;
+  height: 100%;
+}
+input {
+  height: 50px;
+  flex: content;
+  flex-wrap: wrap-reverse;
+  width: auto;
+  margin: 10px;
+}
+.boton {
+  background-color: $primary-color;
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px;
+  border-color: red;
+  color: aqua;
+}
+
+textarea {
+  height: 100px;
+  width: 350px;
+}

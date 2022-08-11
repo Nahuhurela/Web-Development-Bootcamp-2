@@ -1,0 +1,47 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font: Arial, Helvetica, Sans-serif;
+  line-height: 1.6;
+}
+
+body header {
+  color: #333;
+  background-color: #e5ccb3;
+  border: 1px solid #333;
+  height: 600px;
+}
+
+body img {
+  width: 50%;
+}
+
+body h1 {
+  font-size: 50px;
+  line-height: 1.2;
+}
+
+.container {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.content {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 30px;
+}
+/*# sourceMappingURL=styles.css.map */

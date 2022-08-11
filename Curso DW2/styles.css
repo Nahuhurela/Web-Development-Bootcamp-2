@@ -1,0 +1,28 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  color: white;
+  background-color: black;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  color: #e926d9;
+  text-align: center;
+}
+
+.formulario {
+  margin: 50px auto;
+  width: 400px;
+}
+
+.boton {
+  background-color: #e926d9;
+  text-align: justify;
+}
+/*# sourceMappingURL=styles.css.map */

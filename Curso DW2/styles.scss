@@ -1,0 +1,32 @@
+
+
+    *{ 
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    }
+    body{
+        color: white;
+        background-color: black;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    $primary-color: rgb(233, 38, 217);
+    $i: 1;
+
+    h1 {
+        color:$primary-color;
+        text-align: center;
+    }
+
+    .formulario {
+        margin:50px auto;
+        width:400px;
+    }
+
+    .boton {
+        background-color: $primary-color;
+        text-align: justify;        
+    }
+
+

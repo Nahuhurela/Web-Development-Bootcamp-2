@@ -1,0 +1,67 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  color: white;
+  background-color: black;
+  padding: 100px 0px 100px 0px;
+  display: -ms-grid;
+  display: grid;
+}
+
+h1 {
+  color: #e926d9;
+  text-align: center;
+  font-weight: bold 720;
+}
+
+.formulario {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: auto;
+  max-width: 400px;
+  padding: 5px;
+  height: 100%;
+}
+
+input {
+  height: 50px;
+  -webkit-box-flex: content;
+      -ms-flex: content;
+          flex: content;
+  -ms-flex-wrap: wrap-reverse;
+      flex-wrap: wrap-reverse;
+  width: auto;
+  margin: 10px;
+}
+
+.boton {
+  background-color: #e926d9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 5px;
+  border-color: red;
+  color: aqua;
+}
+
+textarea {
+  height: 100px;
+  width: 350px;
+}
+/*# sourceMappingURL=styles.css.map */
